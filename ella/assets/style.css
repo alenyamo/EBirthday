@@ -1,0 +1,48 @@
+body {
+    background-color: #F4A1F4;
+    background-image: url("WG8P.gif");
+    font-family: 'Sansita Swashed', cursive;
+  
+  
+}
+
+.container {
+    background-color: rgba(255, 255, 197, 0.7);
+    padding-bottom: 50px;
+}
+
+p, ul, ol, a {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 21px;
+}
+  
+    p, h1, h2, h3 , h4, h5 {
+        padding: 5px 0px;
+       
+       text-align: center;
+        text-shadow: 2px 2px white;
+    }
+
+footer {
+    bottom: 0px;
+    top: 95%;
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    
+    
+}
+
+.photo {
+    max-width: 400px;
+    height: auto;
+    border-radius: 50%;
+    align-content: center;
+}
+    
+    @media only screen and (max-width: 1000px) {
+        .photo {
+        max-width: 300px;
+        }
+}
+
